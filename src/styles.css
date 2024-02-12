@@ -5,3 +5,22 @@ body {
     height: 100%;
     box-sizing: border-box;
 }
+
+body {
+  background-color: indigo;
+}
+
+.container {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 500px;
+  height: 500px;
+  border-style: double;
+}
