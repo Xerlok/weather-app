@@ -10,6 +10,11 @@ body {
     box-sizing: border-box;
 }
 
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
 body {
   background-color: var(--main-backround-color);
 }
@@ -24,7 +29,52 @@ body {
 }
 
 .box {
+  padding: 2rem;
   width: 1000px;
   height: 500px;
   border-style: double;
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.location-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#weather-icon {
+  height: 200px;
+  width: auto;
+}
+
+.location {
+  font-size: 8rem;
+}
+
+.weather-data {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.temperature {
+  font-size: 8rem;
+}
+
+.rain {
+  font-size: 2rem;
+}
+
+.input {
+  display: flex;
+  gap: 0.2rem;
+}
+
+#search-btn {
+  height: 30px;
+  width: auto;
+  cursor: pointer;
 }

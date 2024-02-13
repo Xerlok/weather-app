@@ -8,7 +8,26 @@
 </head>
 <body>
   <div class="container">
-    <img class="box" src="#" alt="gif"></div>
+    <div class="box">
+      <div class="location-container">
+        <p class="location">Rome</p>
+        <img src="./img/weather-svgrepo-com.svg" alt="weather" id="weather-icon">
+      </div>
+      <div class="data-container">
+        <div class="weather-data">
+          <p class="temperature">21°C</p>
+          <p class="rain">Sunny</p>
+        </div>
+      </div>
+      <div class="input">
+        <select name="temperature-unit" id="temperature-unit">
+          <option value="celcius">C</option>
+          <option value="fahrenheit">F</option>
+        </select>
+        <input type="text" placeholder="Enter city" name="location" id="location" maxlength="40">
+        <img src="./img/search-svgrepo-com.svg" alt="search-btn" id="search-btn">
+      </div>
+    </div>
   </div>
 </body>
 </html>
