@@ -1,5 +1,5 @@
 :root {
-  --main-backround-color: indigo;
+  --main-backround-color: #1e293b;
 }
 
 html,
@@ -71,6 +71,10 @@ body {
 .input {
   display: flex;
   gap: 0.2rem;
+}
+
+.location-input {
+  display: flex;
 }
 
 #search-btn {
